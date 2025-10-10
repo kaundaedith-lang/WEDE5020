@@ -1,0 +1,107 @@
+/*General style*/
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* 2. Body Styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+  }
+  
+  button {
+    background-color: #F97300;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #FFD166;
+    color: #5C3D2E;
+  }
+  
+  /* 3. Header Styling */
+
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px; 
+  }
+  
+  header {
+    background-color:#F5EBDD;
+    color:#333;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .logo {
+    width: 80px;
+    height: auto;
+    object-fit: contain;
+  }
+  
+  
+  /* 4. Navigation Styling */
+  nav {
+    background-color:#5c3d2e;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+  }
+
+  nav :hover{
+    color: #f97300;
+  }
+  
+  /* 5. Main Content Styling */
+  main {
+    padding: 20px;
+  }
+
+  /* 6. Section Styling */
+section {
+    margin-bottom: 20px;
+  }
+
+  section img {
+    max-width: 100%;     
+    height: auto;       
+    display: block;      
+    margin: 10px auto;  
+    border-radius: 8px; 
+  }
+  
+  section img {
+    width: 300px;
+    height: auto;
+  }
+  
+  /* Links */
+  a {
+    color: #FFD166; 
+    text-decoration: underline;
+  }
+  
+  
+  /* 7. Footer Styling */
+  footer {
+    background-color: #5c3d2e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
