@@ -22,63 +22,75 @@
     </nav>
   </header>
 
-  <main>
-    <h2>Contact Us</h2>
-    <p>We would love to hear from you. Reach out using the details below:</p>
+    <main>
+        <h2>Contact Us</h2>
+        <p>We would love to hear from you. Reach out using the details below:</p>
 
-    <h3>Our Office</h3>
-    <p>123 Hope Street, Cape Town, South Africa</p>
+        <h3>Our Office</h3>
+        <p>123 Hope Street, Cape Town, South Africa</p>
 
-    <h3>Email</h3>
-    <p>info@nonprofit.org</p>
+        <h3>Email</h3>
+        <p>info@nonprofit.org</p>
 
-    <h3>Phone</h3>
-    <p>+27 21 123 4567</p>
+        <h3>Phone</h3>
+        <p>+27 21 123 4567</p>
 
     
-    <h3>Send Us a Message</h3>
-    <form id="contactForm">
-  <label for="name">Name:</label><br>
-  <input type="text" id="name" name="name" required><br><br>
+      <h3>Send Us a Message</h3>
+        <form id="contactForm">
+          <label for="fullName">Full Name:</label><br>
+          <input type="text" id="fullName" name="fullName" required><br><br>
 
-  <label for="email">Email:</label><br>
-  <input type="email" id="email" name="email" required><br><br>
+          <label for="email">Email Address:</label><br>
+          <input type="email" id="email" name="email" required><br><br>
 
-  <label for="message">Message:</label><br>
-  <textarea id="message" name="message" required></textarea><br><br>
+          <label for="phone">Phone Number:</label><br>
+          <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="e.g. 0821234567" required><br><br>
 
-  <button type="submit">Send</button>
-</form>
+          <label for="messageType">Type of Message:</label><br>
+          <select id="messageType" name="messageType" required>
+          <option value="">-- Select --</option>
+          <option value="general">General Enquiry</option>
+          <option value="feedback">Feedback</option>
+          <option value="donation">Donation Query</option>
+          <option value="volunteer">Volunteering</option>
+          </select><br><br>
 
-<div id="confirmationModal" class="modal">
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <h3>Confirm Submission</h3>
-    <p>Are you sure you want to send this message?</p>
-    <button id="confirmSend">Yes, Send</button>
-    <button id="cancelSend">Cancel</button>
-  </div>
-</div>
+          <label for="message">Your Message:</label><br>
+          <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+          <button type="submit">Send</button>
+        </form>
+
+      <div id="confirmationModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h3>Confirm Submission</h3>
+          <p>Are you sure you want to send this message?</p>
+          <button id="confirmSend">Yes, Send</button>
+          <button id="cancelSend">Cancel</button>
+        </div>
+      </div>
 
 
-    <h3>Frequently Asked Questions</h3>
-<div class="accordion-container">
-  <button class="accordion">What services does the foundation provide?</button>
-  <div class="panel">
-    <p>We support pediatric healthcare through fundraising, awareness, and community programs.</p>
-  </div>
+        <h3>Frequently Asked Questions</h3>
+      <div class="accordion-container">
+        <button class="accordion">What services does the foundation provide?</button>
+        <div class="panel">
+          <p>We support pediatric healthcare through fundraising, awareness, and community programs.</p>
+        </div>
 
-  <button class="accordion">How can I make a donation?</button>
-  <div class="panel">
-    <p>You can donate via our Programs page or contact us directly for EFT details.</p>
-  </div>
+        <button class="accordion">How can I make a donation?</button>
+        <div class="panel">
+          <p>You can donate via our Programs page or contact us directly for EFT details.</p>
+        </div>
 
-  <button class="accordion">Can I volunteer?</button>
-  <div class="panel">
-    <p>Yes! We welcome volunteers. Please reach out through our contact form for more info.</p>
-  </div>
-</div>
-  </main>
+        <button class="accordion">Can I volunteer?</button>
+        <div class="panel">
+          <p>Yes! We welcome volunteers. Please reach out through our contact form for more info.</p>
+        </div>
+      </div>
+    </main>
 
   <footer>
     <p>&copy; 2025 Childrens Hospital Foundation | Registered NPO #123456</p>
