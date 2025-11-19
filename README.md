@@ -27,6 +27,7 @@ nonprofit-website/
 - Tabbed content interface for organizing information into clickable sections
 - Interactive tabbed content powered by JavaScript for smoother navigation between sections
 - FAQ section with accordion-style toggles for common questions
+- Confirmation modal added to the contact form for user-friendly message submission
 
 ## Styling Updates
 - Integrated a custom **color palette** featuring warm tones: yellow, orange, beige, and earthy brown  
@@ -46,6 +47,7 @@ nonprofit-website/
 - Uses `querySelectorAll()` and class toggling to manage visibility and styling
 - Enhances user experience by reducing page reloads and organizing information efficiently
 - Added accordion interactivity to FAQ section using vanilla JavaScript
+- Modal logic implemented to confirm form submission before sending
 
 ## How to Use
 1. Download or clone the project  

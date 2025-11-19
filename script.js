@@ -22,3 +22,24 @@ accordions.forEach(btn => {
     panel.style.display = panel.style.display === "block" ? "none" : "block";
   });
 });
+
+/* Modal confirmation logic*/
+const form = document.getElementById("contactForm");
+const modal = document.getElementById("confirmationModal");
+const closeBtn = document.querySelector(".close");
+const confirmBtn = document.getElementById("confirmSend");
+const cancelBtn = document.getElementById("cancelSend");
+
+form.addEventListener("submit", function (e) {
+  e.preventDefault(); // prevent actual form submission
+  modal.style.display = "block"; // show modal
+});
+
+closeBtn.onclick = () => modal.style.display = "none";
+cancelBtn.onclick = () => modal.style.display = "none";
+
+confirmBtn.onclick = () => {
+  modal.style.display = "none";
+  alert("Your message has been sent!"); // replace with actual submission logic later
+  form.reset(); // clear the form
+};
