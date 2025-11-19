@@ -24,7 +24,8 @@ nonprofit-website/
 - *Contact page* with an inquiry form and contact details  
 - Consistent header layout with logo and title  
 - Organized project structure for future expansion (JS)
-
+- Tabbed content interface for organizing information into clickable sections
+- Interactive tabbed content powered by JavaScript for smoother navigation between sections
 
 ## Styling Updates
 - Integrated a custom **color palette** featuring warm tones: yellow, orange, beige, and earthy brown  
@@ -33,6 +34,16 @@ nonprofit-website/
 - Applied consistent typography and spacing for improved readability  
 - Used Flexbox for responsive header layout and logo positioning  
 - Enhanced link styles with hover effects for better user interaction
+- Designed a tab layout using Flexbox for horizontal button alignment
+- Styled tab buttons with hover and active states for better user feedback
+- Used `.show` and `.active` classes to toggle visibility and highlight selected tabs
+
+## JavaScrip Functionality
+- Enabled tab switching functionality using JavaScript to show/hide content dynamically
+- Implemented dynamic tab switching using the `openTab()` function
+- Tabs respond to user clicks by showing relevant content and highlighting the active button
+- Uses `querySelectorAll()` and class toggling to manage visibility and styling
+- Enhances user experience by reducing page reloads and organizing information efficiently
 
 ## How to Use
 1. Download or clone the project  
@@ -41,7 +52,7 @@ nonprofit-website/
 4. View styling by inspecting the layout and color scheme across pages
 
 ## Notes
-- JavaScript functionality is not yet implemented  
+- JavaScript functionality is now partially implemented with tab-switching logic  
 - The *donation button* is a placeholder and does not process real payments  
 - Future updates may include form validation, animations, and interactive elements
 
