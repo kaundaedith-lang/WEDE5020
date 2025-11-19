@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enquiry - Childrens Hospital Foundation | Cape Town</title>
+  <meta name="description" content="Submit an enquiry about services, volunteering, or sponsorship opportunities.">
+  <link rel="stylesheet" href="styling.css" />
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <img src="images/CHT-LOGO recoloured.png" alt="Children's Hospital Trust Logo" class="logo" />
+      <h1>Childrens Hospital Foundation</h1>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="programs.html">Our Programs</a>
+      <a href="contact.html">Contact</a>
+      <a href="enquiry.html">Enquire</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Make an Enquiry</h2>
+    <p>Please complete the form below to enquire about our services, products, volunteering, or sponsorship opportunities.</p>
+
+    <form id="enquiryForm">
+      <label for="name">Full Name:</label><br />
+      <input type="text" id="name" name="name" required /><br /><br />
+
+      <label for="email">Email Address:</label><br />
+      <input type="email" id="email" name="email" required /><br /><br />
+
+      <label for="phone">Phone Number:</label><br />
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="e.g. 0821234567" required /><br /><br />
+
+      <label for="enquiryType">Enquiry Type:</label><br />
+      <select id="enquiryType" name="enquiryType" required>
+        <option value="">-- Select --</option>
+        <option value="services">Services</option>
+        <option value="products">Products</option>
+        <option value="volunteer">Volunteering</option>
+        <option value="sponsor">Sponsorship</option>
+      </select><br /><br />
+
+      <label for="message">Your Message:</label><br />
+      <textarea id="message" name="message" rows="5" required></textarea><br /><br />
+
+      <button type="submit">Submit Enquiry</button>
+    </form>
+
+    <div id="confirmationModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3>Confirm Submission</h3>
+        <p>Are you sure you want to send this enquiry?</p>
+        <button id="confirmSend">Yes, Send</button>
+        <button id="cancelSend">Cancel</button>
+      </div>
+    </div>
+
+    <h3>Need Help?</h3>
+    <p>If you're unsure which option to choose, feel free to <a href="contact.html">contact us directly</a>.</p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Childrens Hospital Foundation | Registered NPO #123456</p>
+    <p><a href="contact.html">Contact Us</a></p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
