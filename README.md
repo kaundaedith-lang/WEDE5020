@@ -10,10 +10,10 @@ nonprofit-website/
 │── programs.html    # Programs / What We Do page/Donnation
 │── contact.html     # Contact page
 │── styling.css     # stylesheet
-
+│── script.js       # JavaScript
 │
-├── images/      # Placeholder for images (logo, banners, etc.)
-└── js/          # Placeholder for JavaScript files
+└── images/       # Placeholder for images (logo, banners, etc.) 
+
 
 
 ## Features
