@@ -43,3 +43,14 @@ confirmBtn.onclick = () => {
   alert("Your message has been sent!"); // replace with actual submission logic later
   form.reset(); // clear the form
 };
+
+/*Leaflet map setup*/
+const map = L.map('map').setView([-33.9249, 18.4241], 13); // Cape Town coordinates
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '© OpenStreetMap contributors'
+}).addTo(map);
+
+L.marker([-33.9249, 18.4241]).addTo(map)
+  .bindPopup('Children’s Hospital Foundation Office')
+  .openPopup();

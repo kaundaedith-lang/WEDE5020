@@ -28,6 +28,7 @@ nonprofit-website/
 - Interactive tabbed content powered by JavaScript for smoother navigation between sections
 - FAQ section with accordion-style toggles for common questions
 - Confirmation modal added to the contact form for user-friendly message submission
+- Embedded Leaflet.js map on Programs page to show office location and encourage in-person support
 
 ## Styling Updates
 - Integrated a custom **color palette** featuring warm tones: yellow, orange, beige, and earthy brown  
@@ -48,6 +49,7 @@ nonprofit-website/
 - Enhances user experience by reducing page reloads and organizing information efficiently
 - Added accordion interactivity to FAQ section using vanilla JavaScript
 - Modal logic implemented to confirm form submission before sending
+- Initialized interactive map with marker using Leaflet.js and OpenStreetMap tiles
 
 ## How to Use
 1. Download or clone the project  
