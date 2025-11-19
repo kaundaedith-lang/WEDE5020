@@ -57,6 +57,9 @@ nonprofit-website/
 3. Navigate between pages using the menu links  
 4. View styling by inspecting the layout and color scheme across pages
 
+## Live Site
+Visit the Children's Hospital Foundation site: [View Website] (https://kaundaedith-lang.github.io/WEDE5020/)
+
 ## Notes
 - JavaScript functionality is now partially implemented with tab-switching logic  
 - The *donation button* is a placeholder and does not process real payments  

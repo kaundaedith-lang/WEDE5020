@@ -7,10 +7,6 @@ function openTab(tabId) {
   buttons.forEach(btn => btn.classList.remove("active"));
 
   document.getElementById(tabId).style.display = "block";
-
-  // Optional: fix this selector if needed
-  // const clickedButton = document.querySelector(`button[onclick="openTab('${tabId}')"]`);
-  // if (clickedButton) clickedButton.classList.add("active");
 }
 
 /* Accordion Functionality */
