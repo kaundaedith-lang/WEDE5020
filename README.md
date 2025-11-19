@@ -26,6 +26,7 @@ nonprofit-website/
 - Organized project structure for future expansion (JS)
 - Tabbed content interface for organizing information into clickable sections
 - Interactive tabbed content powered by JavaScript for smoother navigation between sections
+- FAQ section with accordion-style toggles for common questions
 
 ## Styling Updates
 - Integrated a custom **color palette** featuring warm tones: yellow, orange, beige, and earthy brown  
@@ -44,6 +45,7 @@ nonprofit-website/
 - Tabs respond to user clicks by showing relevant content and highlighting the active button
 - Uses `querySelectorAll()` and class toggling to manage visibility and styling
 - Enhances user experience by reducing page reloads and organizing information efficiently
+- Added accordion interactivity to FAQ section using vanilla JavaScript
 
 ## How to Use
 1. Download or clone the project  
